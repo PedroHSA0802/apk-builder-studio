@@ -14,9 +14,6 @@
 
 > **Note:** The user does not need to perform any manual installations. Everything runs seamlessly in the background.
 
----<img width="802" height="631" alt="APKFirstScreen" src="https://github.com/user-attachments/assets/41e95d26-fb9d-4178-ae8b-80e61ddf427b" />
-
-
 ### 📁 Project & Structure Management
 * **Create & Manage:** Easily start new Kivy/KivyMD projects with the correct folder structure.
 * **Smart Detection:** Automatically detect and repair missing or incorrect project folders.
