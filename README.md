@@ -56,12 +56,11 @@ To secure your lifetime free access, simply claim your unique key here:
 🔥 Coming Soon: The Integrated USB Debugger
 
 I'm already working on the next big update:
+One-Click Debugging: Just plug your phone into your PC via USB.
 
-    One-Click Debugging: Just plug your phone into your PC via USB.
+Live Logcat: See exactly why your app is crashing on the device.
 
-    Live Logcat: See exactly why your app is crashing on the device.
-
-    Python Error Filter: No more digging through thousands of lines of system logs. The app will highlight the specific Python error causing the crash.
+Python Error Filter: No more digging through thousands of lines of system logs. The app will highlight the specific Python error causing the crash.
 
 🔒 License & Connectivity
 
