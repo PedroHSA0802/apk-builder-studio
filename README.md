@@ -1,4 +1,6 @@
-<img width="802" height="631" alt="grafik" src="https://github.com/user-attachments/assets/dbd808ae-6e6a-4921-9d12-2bff1c00b582" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dbd808ae-6e6a-4921-9d12-2bff1c00b582" width="600" alt="APK Builder Studio Main Interface">
+</p>
 
 
 ## 🚀 Features
