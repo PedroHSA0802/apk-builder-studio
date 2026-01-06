@@ -50,8 +50,8 @@ Will it cost money later? To be honest: I don't know yet. Maybe it will always b
 
 To secure your lifetime free access, simply claim your unique key here:
 
-👉 Claim your Free Beta Key
 
+https://www.google.com/url?sa=E&source=gmail&q=https://PedroSamuel.pythonanywhere.com/get_beta_key
 (No registration or email required. Just one click, copy, and paste into the app.)
 🔥 Coming Soon: The Integrated USB Debugger
 
