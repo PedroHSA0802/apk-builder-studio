@@ -39,4 +39,21 @@ Check out the tool in action:
 
 <video src="https://github.com/user-attachments/assets/99100275-2e35-44fc-8be0-86edf23ee4d0" width="100%" controls></video>
 
+✍️ A Note from the Developer (License & Future)
 
+Hi! I’m the developer of this tool. I built it because the APK build process used to give me massive headaches, and I wanted a solution that just works for everyone.
+
+Why a license key? Even though the app is currently free, I’ve included a license system to help me manage the community and growth while I’m still refining the software.
+
+Will it cost money later? To be honest: I don't know yet. Maybe it will always be free, maybe there will be a small fee for new users later. But here’s the deal: If you get a key during this beta phase, the app stays free for you forever. No subscriptions, no hidden costs – even for all future updates and "Pro" features.
+🔥 Coming Soon: The Integrated USB Debugger
+
+I'm already working on the next big update:
+
+    One-Click Debugging: Just plug your phone into your PC via USB.
+
+    Live Logcat: See exactly why your app is crashing on the device.
+
+    Python Error Filter: No more digging through thousands of lines of system logs. The app will highlight the specific Python error causing the crash.
+
+Want to test it? If you want to try the app and secure your Lifetime Free Access, just send me a quick message. I’ll get your key to you without any hassle!
