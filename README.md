@@ -53,10 +53,12 @@ To secure your lifetime free access, simply claim your unique key here:
 
 https://www.google.com/url?sa=E&source=gmail&q=https://PedroSamuel.pythonanywhere.com/get_beta_key
 (No registration or email required. Just one click, copy, and paste into the app.)
+
 🔥 Coming Soon: The Integrated USB Debugger
 
 I'm already working on the next big update:
-One-Click Debugging: Just plug your phone into your PC via USB.
+One-Click Debugging: 
+Just plug your phone into your PC via USB.
 
 Live Logcat: See exactly why your app is crashing on the device.
 
