@@ -56,10 +56,9 @@ Live Logcat: See exactly why your app is crashing on the device.
 
 Python Error Filter: No more digging through thousands of lines of system logs. The app will highlight the specific Python error causing the crash.
 
+
 🔒 License & Connectivity
-
-    Activation: Requires a one-time internet connection to link your key to an anonymous hardware-hash (valid for up to 2 devices).
-
-    Setup: Internet access is needed during the first run to automatically download the required Android components (WSL, SDK, NDK).
+Activation: Requires a one-time internet connection to link your key to an anonymous hardware-hash (valid for up to 2 devices).
+Setup: Internet access is needed during the first run to automatically download the required Android components (WSL, SDK, NDK).
 
 Want to test it? If you want to try the app and secure your Lifetime Free Access, just send me a quick message. I’ll get your key to you without any hassle!
