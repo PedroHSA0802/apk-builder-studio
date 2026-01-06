@@ -46,19 +46,25 @@ Hi! I’m the developer of this tool. I built it because the APK build process u
 Why a license key? Even though the app is currently free, I’ve included a license system to help me manage the community and growth while I’m still refining the software.
 
 Will it cost money later? To be honest: I don't know yet. Maybe it will always be free, maybe there will be a small fee for new users later. But here’s the deal: If you get a key during this beta phase, the app stays free for you forever. No subscriptions, no hidden costs – even for all future updates and "Pro" features.
+🔑 Get your Lifetime Access Key
+
+To secure your lifetime free access, simply claim your unique key here:
+
+👉 Claim your Free Beta Key
+
+(No registration or email required. Just one click, copy, and paste into the app.)
 🔥 Coming Soon: The Integrated USB Debugger
 
 I'm already working on the next big update:
 
-One-Click Debugging: Just plug your phone into your PC via USB.
+    One-Click Debugging: Just plug your phone into your PC via USB.
 
-Live Logcat: See exactly why your app is crashing on the device.
+    Live Logcat: See exactly why your app is crashing on the device.
 
-Python Error Filter: No more digging through thousands of lines of system logs. The app will highlight the specific Python error causing the crash.
-
+    Python Error Filter: No more digging through thousands of lines of system logs. The app will highlight the specific Python error causing the crash.
 
 🔒 License & Connectivity
-Activation: Requires a one-time internet connection to link your key to an anonymous hardware-hash (valid for up to 2 devices).
-Setup: Internet access is needed during the first run to automatically download the required Android components (WSL, SDK, NDK).
 
-Want to test it? If you want to try the app and secure your Lifetime Free Access, just send me a quick message. I’ll get your key to you without any hassle!
+    Activation: Requires a one-time internet connection to link your key to an anonymous hardware-hash (valid for up to 2 devices).
+
+    Setup: Internet access is needed during the first run to automatically download the required Android components (WSL, SDK, NDK).
