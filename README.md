@@ -53,13 +53,13 @@ APK Builder Studio is designed to be resilient. If you encounter issues during t
 
 The integrated update button ensures your build environment stays current without needing to reinstall the application:
 
-    Profile Synchronization: Downloads the latest configuration files (.ini) directly from our server to your local AppData directory.
+Profile Synchronization: Downloads the latest configuration files (.ini) directly from our server to your local AppData directory.
 
-    Dynamic Toolchain Adaptation: Each profile contains specific instructions for the required Android SDK, NDK, and Gradle versions, as well as the exact Python requirements for that KivyMD version.
+Dynamic Toolchain Adaptation: Each profile contains specific instructions for the required Android SDK, NDK, and Gradle versions, as well as the exact Python requirements for that KivyMD version.
 
-    Automated Reconfiguration: Once a new profile is selected, the app automatically adjusts the entire WSL environment to the new specifications during the next installation or build process.
+Automated Reconfiguration: Once a new profile is selected, the app automatically adjusts the entire WSL environment to the new specifications during the next installation or build process.
 
-    Version Switching: Allows you to switch seamlessly between different KivyMD generations (e.g., from 1.x to 2.x). The app reloads all build parameters in real-time based on the active profile.
+Version Switching: Allows you to switch seamlessly between different KivyMD generations (e.g., from 1.x to 2.x). The app reloads all build parameters in real-time based on the active profile.
 
 Why this is a game-changer:
 
