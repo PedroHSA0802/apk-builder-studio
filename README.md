@@ -48,6 +48,22 @@ APK Builder Studio is designed to be resilient. If you encounter issues during t
 
   🔑 Permission Fix: Our automated script automatically configures sudo access within WSL (passwordless), eliminating the "Permission Denied" errors that frequently plague manual Kivy/Buildozer setups.
 ---
+
+🔄 KivyMD Update Engine
+
+The integrated update button ensures your build environment stays current without needing to reinstall the application:
+
+    Profile Synchronization: Downloads the latest configuration files (.ini) directly from our server to your local AppData directory.
+
+    Dynamic Toolchain Adaptation: Each profile contains specific instructions for the required Android SDK, NDK, and Gradle versions, as well as the exact Python requirements for that KivyMD version.
+
+    Automated Reconfiguration: Once a new profile is selected, the app automatically adjusts the entire WSL environment to the new specifications during the next installation or build process.
+
+    Version Switching: Allows you to switch seamlessly between different KivyMD generations (e.g., from 1.x to 2.x). The app reloads all build parameters in real-time based on the active profile.
+
+Why this is a game-changer:
+
+Instead of manually hunting for compatible NDK versions or fixing Gradle errors, you simply click Update, select your version, and let the app handle the complex background configuration.
 ## 📺 Video Tutorial
 Check out the tool in action:
 <video src="https://github.com/user-attachments/assets/99100275-2e35-44fc-8be0-86edf23ee4d0" width="100%" controls></video>
