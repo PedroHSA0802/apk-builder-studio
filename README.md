@@ -36,7 +36,18 @@
 * **Organized Output:** Stores generated APKs in a clean and structured output folder.
 
 ---
+🛠 Troubleshooting & Self-Healing
 
+APK Builder Studio is designed to be resilient. If you encounter issues during the build process, the app provides built-in tools to fix the environment without manual intervention:
+
+    Structure Check (🔍): Before building, use the integrated folder check. It identifies missing main.py files or incorrect project hierarchies that would typically cause Buildozer to fail silently.
+
+    Safe Reset (🧹 "The Broom"): If your build hangs or shows weird Python errors, use the Safe Reset. It clears the python-for-android platform caches and local Buildozer temporary files while keeping your project settings intact.
+
+    Deep Reset (💣 "The Bomb"): In case the WSL environment becomes corrupted or an SDK update fails, the Deep Reset allows you to unregister and wipe the entire Ubuntu/WSL instance. The app will then guide you through a fresh, automated setup.
+
+    Permission Fix: Our automated script automatically configures sudo access within WSL (passwordless), eliminating the "Permission Denied" errors that frequently plague manual Kivy/Buildozer setups.
+---
 ## 📺 Video Tutorial
 Check out the tool in action:
 <video src="https://github.com/user-attachments/assets/99100275-2e35-44fc-8be0-86edf23ee4d0" width="100%" controls></video>
