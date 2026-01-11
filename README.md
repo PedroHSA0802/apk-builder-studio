@@ -53,7 +53,7 @@ APK Builder Studio is designed to be resilient. If you encounter issues during t
 
 The integrated update button ensures your build environment stays current without needing to reinstall the application:
 
-Profile Synchronization: Downloads the latest configuration files (.ini) directly from our server to your local AppData directory.
+Profile Synchronization: Downloads the latest configuration files (.txt) directly from our server to your local AppData directory.
 
 Dynamic Toolchain Adaptation: Each profile contains specific instructions for the required Android SDK, NDK, and Gradle versions, as well as the exact Python requirements for that KivyMD version.
 
