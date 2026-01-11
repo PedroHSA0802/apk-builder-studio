@@ -66,7 +66,11 @@ Why this is a game-changer:
 Instead of manually hunting for compatible NDK versions or fixing Gradle errors, you simply click Update, select your version, and let the app handle the complex background configuration.
 ## 📺 Video Tutorial
 Check out the tool in action:
-<video src="https://github.com/user-attachments/assets/99100275-2e35-44fc-8be0-86edf23ee4d0" width="100%" controls></video>
+
+
+https://github.com/user-attachments/assets/4dc2a2ba-8701-4d1b-904c-f164cad1267e
+
+
 Want to see every detail? Watch the comprehensive walkthrough on YouTube for a step-by-step guide:
 https://youtu.be/DQ5Ox1PAafc
 
