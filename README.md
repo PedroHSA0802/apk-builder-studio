@@ -76,7 +76,7 @@ https://github.com/user-attachments/assets/497ae25b-6aae-416f-bcd9-86588e7f29a3
 
 
 Watch on YouTube:
-https://youtu.be/DQ5Ox1PAafc
+[https://youtu.be/DQ5Ox1PAafc](https://youtu.be/Dr0fThHWPxs)
 
 
 ✍️ A Note from the Developer (License & Future)
