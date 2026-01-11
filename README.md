@@ -68,7 +68,11 @@ Instead of manually hunting for compatible NDK versions or fixing Gradle errors,
 Check out the tool in action:
 
 
-https://github.com/user-attachments/assets/4dc2a2ba-8701-4d1b-904c-f164cad1267e
+
+
+https://github.com/user-attachments/assets/497ae25b-6aae-416f-bcd9-86588e7f29a3
+
+
 
 
 Want to see every detail? Watch the comprehensive walkthrough on YouTube for a step-by-step guide:
