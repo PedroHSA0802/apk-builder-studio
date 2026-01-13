@@ -2,6 +2,10 @@
   <img src="https://github.com/user-attachments/assets/dbd808ae-6e6a-4921-9d12-2bff1c00b582" width="600" alt="APK Builder Studio Main Interface">
 </p>
 
+> ### 📢 Current Status: Production-Ready Beta
+> **APK Builder Studio** is fully functional. The current Beta phase is used to verify compatibility across diverse Windows hardware environments. 
+> **All core features (WSL setup, SDK management, APK building) are 100% operational.**
+
 🛡️ Security & Trust: Is this tool safe?
 
 Building Android APKs requires deep system integration (installing WSL, configuring Android SDK/NDK, and managing environment variables).
