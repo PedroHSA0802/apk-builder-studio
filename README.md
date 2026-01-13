@@ -30,6 +30,8 @@ You can safely run the app by clicking "More info" and then "Run anyway."
 
 Privacy First: The app only connects to our server to verify your license key using an anonymous hardware hash. No personal data, emails, or private files are ever collected or transmitted.
 
+💡 Verification Tip: > Don't just take my word for it. You can take the VirusTotal "Behavior Report" and paste it into any AI like ChatGPT, Copilot, or Gemini. Ask the AI: "Is this behavior typical for a software installer?" > The AI will confirm that activities like writing registry keys, creating temporary folders, and updating the icon cache are standard procedures for tools built with Inno Setup and Nuitka.
+
 ## 🚀 Features
 
 ### 🔧 Fully Automated Setup
