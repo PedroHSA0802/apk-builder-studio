@@ -5,6 +5,11 @@
 > ### 📢 Current Status: Production-Ready Beta
 > **APK Builder Studio** is fully functional. The current Beta phase is used to verify compatibility across diverse Windows hardware environments. 
 > **All core features (WSL setup, SDK management, APK building) are 100% operational.**
+>
+> ## 📥 Download & Quick Start
+The latest version is ready for use! 
+- **Current Version:** [v1.0.0-beta](https://github.com/PedroHSA0802/apk-builder-studio/releases/latest)
+- **Direct Download:** [apk-builder-studio.exe](https://github.com/PedroHSA0802/apk-builder-studio/releases/download/v1.0.0-beta/apk-builder-studio.exe)
 
 🛡️ Security & Trust: Is this tool safe?
 
