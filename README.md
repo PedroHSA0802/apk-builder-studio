@@ -4,23 +4,32 @@
 
 🛡️ Security & Trust: Is this tool safe?
 
-Building Android APKs requires deep system integration (installing WSL, configuring Android SDK/NDK, and managing environment variables). Because of these powerful features, some security filters might be extra cautious.
+Building Android APKs requires deep system integration (installing WSL, configuring Android SDK/NDK, and managing environment variables).
+
+Because of these powerful features, some security filters might be extra cautious.
 
 Here are the facts regarding your security:
 
-    Verified by Industry Leaders: I submitted the application to VirusTotal, where it was analyzed by over 70 different security engines.
+Verified by Industry Leaders: I submitted the application to VirusTotal, where it was analyzed by over 70 different security engines.
 
-        The Result: 68 out of 71 scanners (including world leaders like Kaspersky, BitDefender, ESET, and Sophos) confirmed the file is 100% clean.
+The Result: 68 out of 71 scanners (including world leaders like Kaspersky, BitDefender, ESET, and Sophos) confirmed the file is 100% clean.
 
-        The 3 minor flags are "False Positives." These occur because the app is designed to download the Android SDK and interact with the WSL system.
+The 3 minor flags are "False Positives." These occur because the app is designed to download the Android SDK and interact with the WSL system.
 
-    Verify it yourself: I encourage transparency. If you have any concerns, please feel free to upload the .exe to VirusTotal.com yourself before running it. You will see the same results from the world's most trusted security providers.
+Verify it yourself: I encourage transparency. If you have any concerns, please feel free to upload the .exe to VirusTotal.com yourself before running it.
 
-    Compatibility Testing: To ensure a smooth experience, I specifically tested the app against popular antivirus software like Avast. The tool was correctly identified as safe and was not blocked during operation.
+You will see the same results from the world's most trusted security providers.
 
-    Why does Windows show a warning? Since the app is not digitally signed with an expensive corporate certificate, Windows SmartScreen may show an "Unknown Publisher" warning. You can safely run the app by clicking "More info" and then "Run anyway."
+Compatibility Testing: To ensure a smooth experience, I specifically tested the app against popular antivirus software like Avast.
 
-    Privacy First: The app only connects to our server to verify your license key using an anonymous hardware hash. No personal data, emails, or private files are ever collected or transmitted.
+The tool was correctly identified as safe and was not blocked during operation.
+
+Why does Windows show a warning? Since the app is not digitally signed with an expensive corporate certificate, Windows SmartScreen may show an "Unknown Publisher" warning.
+
+You can safely run the app by clicking "More info" and then "Run anyway."
+
+Privacy First: The app only connects to our server to verify your license key using an anonymous hardware hash. No personal data, emails, or private files are ever collected or transmitted.
+
 ## 🚀 Features
 
 ### 🔧 Fully Automated Setup
