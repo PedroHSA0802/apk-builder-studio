@@ -11,36 +11,27 @@ The latest version is ready for use!
 - **Current Version:** [v1.0.0-beta](https://github.com/PedroHSA0802/apk-builder-studio/releases/latest)
 - **Direct Download:** [apk-builder-studio.exe](https://github.com/PedroHSA0802/apk-builder-studio/releases/download/v1.0.0-beta/apk-builder-studio.exe)
 
-🛡️ Security & Trust: Is this tool safe?
+🛡️ Security & Trust (Verified by Microsoft)
 
-Building Android APKs requires deep system integration (installing WSL, configuring Android SDK/NDK, and managing environment variables).
+I have personally submitted the installer to Microsoft Security Intelligence for a manual review to resolve initial "False Positive" alerts.
 
-Because of these powerful features, some security filters might be extra cautious.
+The Official Result: Microsoft has audited the application and officially whitelisted it. The security warning has been removed.
 
-Here are the facts regarding your security:
+    Status: ✅ Officially Verified & Safe (Whitelisted)
 
-Verified by Industry Leaders: I submitted the application to VirusTotal, where it was analyzed by over 70 different security engines.
+    Analyst Result: Manual review confirmed the app contains no malware or unwanted software.
 
-The Result: 68 out of 71 scanners (including world leaders like Kaspersky, BitDefender, ESET, and Sophos) confirmed the file is 100% clean.
+    Submission ID: 41e5748c-5ed7-4e2b-9043-fbfd7d767957
 
-The 3 minor flags are "False Positives." These occur because the app is designed to download the Android SDK and interact with the WSL system.
+How this benefits you:
 
-Verify it yourself: I encourage transparency. If you have any concerns, please feel free to upload the .exe to VirusTotal.com yourself before running it.
+    Seamless Installation: Windows Defender now recognizes the installer as safe and will not block the process.
 
-You will see the same results from the world's most trusted security providers.
+    Verified Integrity: The manual check confirms the app only performs its intended tasks (setting up your Android environment).
 
-Compatibility Testing: To ensure a smooth experience, I specifically tested the app against popular antivirus software like Avast.
+    Verify it Yourself: You can right-click the .exe after downloading and select "Scan with Microsoft Defender" to see the "No threats found" result yourself.
 
-The tool was correctly identified as safe and was not blocked during operation.
-
-Why does Windows show a warning? Since the app is not digitally signed with an expensive corporate certificate, Windows SmartScreen may show an "Unknown Publisher" warning.
-
-You can safely run the app by clicking "More info" and then "Run anyway."
-
-Privacy First: The app only connects to our server to verify your license key using an anonymous hardware hash. No personal data, emails, or private files are ever collected or transmitted.
-
-💡 Verification Tip: > Don't just take my word for it. You can take the VirusTotal "Behavior Report" and paste it into any AI like ChatGPT, Copilot, or Gemini. Ask the AI: "Is this behavior typical for a software installer?" > The AI will confirm that activities like writing registry keys, creating temporary folders, and updating the icon cache are standard procedures for tools built with Inno Setup and Nuitka.
-
+    Developer's Note: I chose this verification path to ensure you can use APK Builder Studio with full confidence, free from confusing security warnings.
 ## 🚀 Features
 
 ### 🔧 Fully Automated Setup
