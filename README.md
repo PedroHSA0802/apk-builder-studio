@@ -17,21 +17,21 @@ I have personally submitted the installer to Microsoft Security Intelligence for
 
 The Official Result: Microsoft has audited the application and officially whitelisted it. The security warning has been removed.
 
-    Status: ✅ Officially Verified & Safe (Whitelisted)
+Status: ✅ Officially Verified & Safe (Whitelisted)
 
-    Analyst Result: Manual review confirmed the app contains no malware or unwanted software.
+Analyst Result: Manual review confirmed the app contains no malware or unwanted software.
 
-    Submission ID: 41e5748c-5ed7-4e2b-9043-fbfd7d767957
+Submission ID: 41e5748c-5ed7-4e2b-9043-fbfd7d767957
 
 How this benefits you:
 
-    Seamless Installation: Windows Defender now recognizes the installer as safe and will not block the process.
+Seamless Installation: Windows Defender now recognizes the installer as safe and will not block the process.
 
-    Verified Integrity: The manual check confirms the app only performs its intended tasks (setting up your Android environment).
+Verified Integrity: The manual check confirms the app only performs its intended tasks (setting up your Android environment).
 
-    Verify it Yourself: You can right-click the .exe after downloading and select "Scan with Microsoft Defender" to see the "No threats found" result yourself.
+Verify it Yourself: You can right-click the .exe after downloading and select "Scan with Microsoft Defender" to see the "No threats found" result yourself.
 
-    Developer's Note: I chose this verification path to ensure you can use APK Builder Studio with full confidence, free from confusing security warnings.
+Developer's Note: I chose this verification path to ensure you can use APK Builder Studio with full confidence, free from confusing security warnings.
 ## 🚀 Features
 
 ### 🔧 Fully Automated Setup
