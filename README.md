@@ -108,20 +108,34 @@ Watch on YouTube:
 [https://youtu.be/DQ5Ox1PAafc](https://youtu.be/Dr0fThHWPxs)
 
 
-✍️ A Note from the Developer (License & Future)
+✍️ A Note from the Developer (Why Beta Access?)
 
 Hi! I’m the developer of this tool. I built it because the APK build process used to give me massive headaches, and I wanted a solution that just works for everyone.
 
-Why a license key? Even though the app is currently free, I’ve included a license system to help me manage the community and growth while I’m still refining the software.
+Why a Beta Access Key? Even though the app is 100% free, I’ve included a simple access system. This is not for profit, but for community management:
 
-Will it cost money later? To be honest: I don't know yet. Maybe it will always be free, maybe there will be a small fee for new users later. But here’s the deal: If you get a key during this beta phase, the app stays free for you forever. No subscriptions, no hidden costs – even for all future updates and "Pro" features.
-🔑 Get your Lifetime Access Key
+Controlled Growth: It helps me track how many people are using the tool so I can prioritize features like the USB Debugger.
 
-To secure your lifetime free access, simply claim your unique key here:
+Support Quality: It prevents "bot-spam" and ensures that feedback comes from real users, helping me fix bugs faster.
+
+Will it cost money later? I haven't decided yet. But here is my promise: If you get your key during this beta phase, APK Builder Studio stays free for you forever. No subscriptions, no hidden costs — you are a "Founding Member" of this project.
+🔑 Get your Lifetime Beta Access
+
+To secure your lifetime free access, simply claim your unique key here: 👉 Get your Beta Access Key (No registration, no email, no data collection. Just one click.)
 
 
 https://PedroSamuel.pythonanywhere.com/get_beta_key
 (No registration or email required. Just one click, copy, and paste into the app.)
+
+⚡ Performance & Expectations
+
+To be transparent about your workflow:
+
+    1. The One-Time Setup (~40-60 Min): The app downloads and configures the entire Android Toolchain (~5GB), including WSL, SDK, and NDK. You only do this once!
+
+    2. The First Build of a Project (~10-15 Min): When you build a specific project for the first time, Buildozer needs to compile the Python distribution and requirements.
+
+    3. Subsequent Builds (2 - 5 Minutes): 🚀 This is the magic part! After your first successful build, any changes you make to your Python code or UI will be compiled in just a few minutes. This allows for incredibly fast testing and iteration.
 
 🔥 Coming Soon: The Integrated USB Debugger
 
