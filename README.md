@@ -131,11 +131,11 @@ https://PedroSamuel.pythonanywhere.com/get_beta_key
 
 To be transparent about your workflow:
 
-    1. The One-Time Setup (~40-60 Min): The app downloads and configures the entire Android Toolchain (~5GB), including WSL, SDK, and NDK. You only do this once!
+1. The One-Time Setup (~40-60 Min): The app downloads and configures the entire Android Toolchain (~5GB), including WSL, SDK, and NDK. You only do this once!
 
-    2. The First Build of a Project (~10-15 Min): When you build a specific project for the first time, Buildozer needs to compile the Python distribution and requirements.
+2. The First Build of a Project (~10-15 Min): When you build a specific project for the first time, Buildozer needs to compile the Python distribution and requirements.
 
-    3. Subsequent Builds (2 - 5 Minutes): 🚀 This is the magic part! After your first successful build, any changes you make to your Python code or UI will be compiled in just a few minutes. This allows for incredibly fast testing and iteration.
+3. Subsequent Builds (2 - 5 Minutes): 🚀 This is the magic part! After your first successful build, any changes you make to your Python code or UI will be compiled in just a few minutes. This allows for incredibly fast testing and iteration.
 
 🔥 Coming Soon: The Integrated USB Debugger
 
