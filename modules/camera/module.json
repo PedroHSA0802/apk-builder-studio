@@ -1,0 +1,39 @@
+{
+  "description": "CameraX Java Integration (API 34 compliant)",
+  "activate_java_sources": true,
+  "spec_edits": [
+    {
+      "key": "android.permissions",
+      "value": "CAMERA,RECORD_AUDIO,WRITE_EXTERNAL_STORAGE,READ_MEDIA_IMAGES"
+    },
+    {
+      "key": "android.gradle_dependencies",
+      "value": "androidx.camera:camera-core:1.2.2,androidx.camera:camera-camera2:1.2.2,androidx.camera:camera-lifecycle:1.2.2,androidx.camera:camera-view:1.2.2"
+    },
+    {
+      "key": "android.api",
+      "value": "34"
+    },
+    {
+      "key": "android.minapi",
+      "value": "24"
+    },
+    {
+      "key": "android.build_tools",
+      "value": "34.0.0"
+    },
+    {
+      "key": "android.ndk_api",
+      "value": "26"
+    }
+  ],
+  "required_dirs": [
+    "java_sources"
+  ],
+  "folder_sync": [
+    {
+      "src": "java_sources",
+      "dest": "java_sources"
+    }
+  ]
+}
