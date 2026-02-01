@@ -23,10 +23,10 @@ Build your APK using APK Builder Studio. The camera module will be automatically
 Copy this minimal example to your `main.py`:
 
 ```python
-from kivymd.app import MDApp
-from kivymd.uix.button import MDRaisedButton
 from kivy.uix.boxlayout import BoxLayout
 from kivy.utils import platform
+from kivymd.app import MDApp
+from kivymd.uix.button import MDRaisedButton
 
 
 class CameraApp(MDApp):

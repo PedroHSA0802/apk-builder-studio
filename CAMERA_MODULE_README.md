@@ -231,8 +231,8 @@ Choose your path:
 Minimal working example:
 
 ```python
-from kivymd.app import MDApp
 from kivy.utils import platform
+from kivymd.app import MDApp
 
 class CameraApp(MDApp):
     def start_camera(self):
