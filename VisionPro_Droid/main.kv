@@ -1,0 +1,16 @@
+<CameraScreen>:
+    MDBoxLayout:
+        orientation: "vertical"
+        MDBoxLayout:
+            id: camera_box
+            size_hint_y: 1
+            canvas.before:
+                Color:
+                    rgba: 0, 0, 0, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+            FaceOverlay:
+                id: face_overlay
+                size: self.parent.size
+                pos: self.parent.pos
