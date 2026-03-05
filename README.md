@@ -1,5 +1,6 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/dbd808ae-6e6a-4921-9d12-2bff1c00b582" width="600" alt="APK Builder Studio Main Interface">
+<p align="center"><img width="1234" height="857" alt="apkbuilderstudio2" src="https://github.com/user-attachments/assets/c6016c3b-9330-48b5-959a-073482f7aef3" />
+
+  
 </p>
 
 > ### 📢 Current Status: Production-Ready Beta
