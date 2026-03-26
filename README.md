@@ -72,6 +72,18 @@ Developer's Note: I chose this verification path to ensure you can use APK Build
 * **Real-time Monitoring:** Displays build logs and progress directly in the app.
 * **Organized Output:** Stores generated APKs in a clean and structured output folder.
 
+### 🧩 Module System — Extend Your App with One Click
+APK Builder Studio includes a built-in **Module Manager**. With a simple checkmark, you can integrate powerful native Android features into your KivyMD project — no manual Java code.
+
+#### Currently Available Modules:
+
+* **📷 CameraX** — Adds a ready-to-use camera widget to your KivyMD app. Access the device camera directly from a custom KivyMD widget without writing any platform-specific code.
+* **🧠 ML Kit Face Detection** — Enables real-time face detection powered by Google's ML Kit. Simply activate the module to add face recognition capabilities to your app.
+
+> **How it works:** Open the Module Manager in APK Builder Studio, check the modules you need.
+
+#### 📱 Demo App: VisionPro Droid Widget
+A fully functional demo app called **visionpro_droid_widget** has been built using these modules, showcasing CameraX and ML Kit Face Detection working together in a KivyMD app. The demo is available on GitHub with full source code, `buildozer.spec`, and a pre-built APK.
 ---
 🛠 Troubleshooting & Self-Healing
 
