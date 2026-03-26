@@ -113,19 +113,6 @@ Version Switching: Allows you to switch seamlessly between different KivyMD gene
 Why this is a game-changer:
 
 Instead of manually hunting for compatible NDK versions or fixing Gradle errors, you simply click Update, select your version, and let the app handle the complex background configuration.
-## 📺 Video Tutorial
-Check out the tool in action:
-
-
-
-
-https://github.com/user-attachments/assets/497ae25b-6aae-416f-bcd9-86588e7f29a3
-
-
-
-
-Watch on YouTube:
-[https://youtu.be/DQ5Ox1PAafc](https://youtu.be/Dr0fThHWPxs)
 
 
 ✍️ A Note from the Developer (Why Beta Access?)
