@@ -1,0 +1,63 @@
+# Example buildozer.spec configuration for using the camera module
+#
+# This is a minimal example showing how to activate the camera module.
+# Simply add 'camera' to your requirements and APK Builder Studio will
+# automatically configure everything.
+
+[app]
+
+# (str) Title of your application
+title = My Camera App
+
+# (str) Package name
+package.name = mycameraapp
+
+# (str) Package domain (needed for android/ios packaging)
+package.domain = org.test
+
+# (str) Source code where the main.py live
+source.dir = .
+
+# (str) Source files to include (let empty to include all the files)
+source.include_exts = py,png,jpg,kv,atlas
+
+# (list) Application requirements
+# Add 'camera' here to automatically enable CameraX integration:
+requirements = python3,kivy==2.3.0,kivymd,pyjnius,camera
+
+# (str) Supported orientation (landscape, portrait or all)
+orientation = portrait
+
+# (bool) Indicate if the application should be fullscreen or not
+fullscreen = 0
+
+# (list) Permissions
+# These will be automatically added by the camera module, but you can
+# also specify them manually:
+# android.permissions = CAMERA,RECORD_AUDIO,WRITE_EXTERNAL_STORAGE,READ_MEDIA_IMAGES
+
+# (int) Target Android API
+# The camera module will set this to 34 automatically
+# android.api = 34
+
+# (int) Minimum API your APK will support
+# The camera module will set this to 24 automatically
+# android.minapi = 24
+
+# (list) Gradle dependencies
+# The camera module will automatically add CameraX dependencies:
+# android.gradle_dependencies = androidx.camera:camera-core:1.2.2,androidx.camera:camera-camera2:1.2.2,androidx.camera:camera-lifecycle:1.2.2,androidx.camera:camera-view:1.2.2
+
+[buildozer]
+
+# (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
+log_level = 2
+
+# (int) Display warning if buildozer is run as root (0 = False, 1 = True)
+warn_on_root = 1
+
+# (str) Path to build artifact storage
+# build_dir = ./.buildozer
+
+# (str) Path to build output (i.e. .apk, .ipa) storage
+# bin_dir = ./bin
