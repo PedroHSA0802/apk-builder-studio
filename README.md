@@ -75,7 +75,7 @@ Developer's Note: I chose this verification path to ensure you can use APK Build
 ### 🧩 Module System — Extend Your App with One Click
 APK Builder Studio includes a built-in **Module Manager**. With a simple checkmark, you can integrate powerful native Android features into your KivyMD project — no manual Java code.
 
-Currently Available Modules:
+###Currently Available Modules:
 📷 CameraX — Adds a ready-to-use camera widget to your KivyMD app. Access the device camera directly from a custom KivyMD widget without writing any platform-specific code.
 🧠 ML Kit Face Detection — Enables real-time face detection powered by Google's ML Kit. Simply activate the module to add face recognition capabilities to your app.
 🔍 ML Kit Barcode Scanning — High-speed recognition and decoding of 1D and 2D barcodes (QR codes, EAN, UPC, Data Matrix) directly from the camera feed.
