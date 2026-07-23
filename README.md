@@ -110,6 +110,14 @@ Automated Reconfiguration: Once a new profile is selected, the app automatically
 
 Version Switching: Allows you to switch seamlessly between different KivyMD generations (e.g., from 1.x to 2.x). The app reloads all build parameters in real-time based on the active profile.
 
+🔥 Integrated Wireless & USB Debugger + One-Click Installer
+No more guessing why your app crashes! APK Builder Studio now features a built-in Debugger and Direct Deployment Manager:
+
+📶 & 🔌 Wireless & USB Debugging: Connect via Wi-Fi ADB (Auto-Detection) or standard USB cable in seconds.
+📜 Live Logcat Stream: Real-time logs streamed directly inside the desktop interface.
+🐍 Smart Python Error Filter: Automatically filters out thousands of irrelevant system logs and highlights the exact Python traceback / ModuleNotFoundError causing the crash.
+📲 Direct APK & AAB Installation: Install both generated .apk files AND Google Play .aab bundles directly onto your connected Android device with a single click — no manual terminal or ADB commands needed!
+
 Why this is a game-changer:
 
 Instead of manually hunting for compatible NDK versions or fixing Gradle errors, you simply click Update, select your version, and let the app handle the complex background configuration.
@@ -143,16 +151,6 @@ To be transparent about your workflow:
 2. The First Build of a Project (~10-15 Min): When you build a specific project for the first time, Buildozer needs to compile the Python distribution and requirements.
 
 3. Subsequent Builds (2 - 5 Minutes): 🚀 This is the magic part! After your first successful build, any changes you make to your Python code or UI will be compiled in just a few minutes. This allows for incredibly fast testing and iteration.
-
-🔥 Coming Soon: The Integrated USB Debugger
-
-I'm already working on the next big update:
-One-Click Debugging: 
-Just plug your phone into your PC via USB.
-
-Live Logcat: See exactly why your app is crashing on the device.
-
-Python Error Filter: No more digging through thousands of lines of system logs. The app will highlight the specific Python error causing the crash.
 
 🔒 License & Connectivity
 Activation: Requires a one-time internet connection to link your key to an anonymous hardware-hash (valid for up to 2 devices).
