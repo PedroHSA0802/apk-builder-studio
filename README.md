@@ -114,13 +114,14 @@ Automated Reconfiguration: Once a new profile is selected, the app automatically
 
 Version Switching: Allows you to switch seamlessly between different KivyMD generations (e.g., from 1.x to 2.x). The app reloads all build parameters in real-time based on the active profile.
 
-🔥 Integrated Wireless & USB Debugger + One-Click Installer
+🔥 **Integrated Wireless & USB Debugger + One-Click Installer**
+
 No more guessing why your app crashes! APK Builder Studio now features a built-in Debugger and Direct Deployment Manager:
 
-📶 & 🔌 Wireless & USB Debugging: Connect via Wi-Fi ADB (Auto-Detection) or standard USB cable in seconds.
-📜 Live Logcat Stream: Real-time logs streamed directly inside the desktop interface.
-🐍 Smart Python Error Filter: Automatically filters out thousands of irrelevant system logs and highlights the exact Python traceback / ModuleNotFoundError causing the crash.
-📲 Direct APK & AAB Installation: Install both generated .apk files AND Google Play .aab bundles directly onto your connected Android device with a single click — no manual terminal or ADB commands needed!
+* 📶 & 🔌 **Wireless & USB Debugging:** Connect via Wi-Fi ADB (Auto-Detection) or standard USB cable in seconds.
+* 📜 **Live Logcat Stream:** Real-time logs streamed directly inside the desktop interface.
+* 🐍 **Smart Python Error Filter:** Automatically filters out thousands of irrelevant system logs and highlights the exact Python traceback / `ModuleNotFoundError` causing the crash.
+* 📲 **Direct APK & AAB Installation:** Install both generated `.apk` files AND Google Play `.aab` bundles directly onto your connected Android device with a single click — no manual terminal or ADB commands needed!
 
 Why this is a game-changer:
 
