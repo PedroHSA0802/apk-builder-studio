@@ -1,3 +1,30 @@
+<img width="1869" height="947" alt="SamAI" src="https://github.com/user-attachments/assets/92032eeb-31e1-4d64-8b80-d61e5a26c102" />
+## 🤖 New: SamAI — Your Built-in Build Assistant
+
+**What is SamAI?** SamAI is an AI-powered diagnostic assistant built directly into the browser-based IDE. Instead of digging through cryptic Buildozer output or Android logcat traces yourself, you just ask SamAI what's wrong — and it reads your project for you.
+
+**What it's for:** SamAI helps with two kinds of problems, each with its own quick-select button:
+- **"Build Problem (APK/AAB)"** — your build fails? Just click it. SamAI analyzes why the build isn't going through and gives you the right change to apply.
+- **"App doesn't start on the device or behaves incorrectly"** — your app crashes on the device? SamAI analyzes the logcat and tells you why it's not starting.
+
+**What about a silent bug** — the app runs fine, but something behaves wrong (a button click doesn't do what it should)? There's no dedicated button for that, so here's the workflow:
+1. Clear the logcat on Screen 4 first, so nothing old gets mixed in
+2. Start the logcat and reproduce the bug (click the button, test it)
+3. In the IDE's file tree, check the checkbox on the affected file so SamAI can see it
+4. In the prompt, briefly describe what's not working
+5. Send the request — SamAI reviews the selected file and reasons about the logic
+
+**How it works:** Whichever of the three paths you use — when SamAI finds a fix, it proposes concrete changes, whether to `buildozer.spec` or to project files like `.py`/`.kv`. Click **"Apply"** and the suggestion is written directly into the file automatically. An automatic checkpoint is created before every apply, so you can always roll back.
+
+**This is a beta — and I need your help improving it.** SamAI is actively being trained on real bugs. If it gets something wrong or can't solve your case, use the **"No solution"** button in the IDE — it sends me your description plus a zipped snapshot of your project, so I can add your case to SamAI's knowledge base and make it smarter for everyone. The more real cases I collect, the better SamAI gets.
+
+**How to get access:** SamAI requires a free beta key (separate from your regular Studio access — Studio itself works without any key at all). You'll find the key request built right into the IDE — just follow the prompt when you try SamAI for the first time.
+
+**Why are the keys limited?** I build and maintain APK Builder Studio alone. Every SamAI request costs real API compute, and during this beta phase I want to be able to give each case my personal attention instead of drowning in requests. That's why there's only a limited number of keys for now — first come, first served.
+
+
+
+
 <p align="center"><img width="1234" height="857" alt="apkbuilderstudio2" src="https://github.com/user-attachments/assets/c6016c3b-9330-48b5-959a-073482f7aef3" />
 </p>
 <img width="1236" height="861" alt="apkbuilderstudioscreen2" src="https://github.com/user-attachments/assets/b7565202-ec03-4c9e-a7fc-e6b113ebd585" />
