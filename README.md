@@ -15,4 +15,8 @@ SamAI
 
 When something breaks, the built-in assistant SamAI reads your build log or logcat, finds the cause, and writes the fix straight into your project files — no manual copy-pasting.
 
-<p align="center"> <img src="docs/samai.png" alt="SamAI - the integrated debugging assistant" width="100%"> </p> <p align="center"> <a href="https://pedrohsa0802.github.io/apk-builder-studio/"><b>Read more →</b></a> </p>
+<p align="center"> <img src="docs/samai.png" alt="SamAI - the integrated debugging assistant" width="100%"> </p>
+
+Got feedback, found a bug, or just want to share what you built? Leave a comment in Discussions — I read every one.
+
+<p align="center"> <a href="https://pedrohsa0802.github.io/apk-builder-studio/"><b>Read more →</b></a> </p>
