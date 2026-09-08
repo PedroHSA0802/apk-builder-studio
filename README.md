@@ -2,7 +2,7 @@ APK Builder Studio
 
 The fully GUI-driven platform for turning Kivy and KivyMD apps into APKs and AABs — no terminal required.
 
-<p align="center"> <a href="https://github.com/PedroHSA0802/apk-builder-studio/releases/download/v1.0.0-beta/APK-Builder-Studio.zip"><b>⬇ Download (.zip)</b></a> </p>
+<p align="center"> <a href="https://github.com/PedroHSA0802/apk-builder-studio/releases/download/v1.0.0-beta/setup-apk-builder-studio.exe"><b>⬇ Download (.exe)</b></a> </p>
 
 Note on the security prompt: Windows may show an "Unknown publisher" SmartScreen warning when you first run the installer — that's normal for independently published apps without a paid code-signing certificate, not a malware flag. The app itself has been reviewed by Microsoft Security Intelligence and is no longer flagged as malware.
 
