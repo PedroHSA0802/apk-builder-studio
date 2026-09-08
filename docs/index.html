@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APK Builder Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #EFEDE6;
+    --surface: #FBFAF6;
+    --ink: #1E2A2E;
+    --ink-soft: #5C6B70;
+    --line: #DAD5C8;
+    --accent: #B8843C;
+    --accent-ink: #7A5525;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+
+  /* --- HERO / INTRO --- */
+  .hero {
+    padding: 88px 0 56px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .hero h1 {
+    font-size: 46px;
+    line-height: 1.1;
+    max-width: 14ch;
+  }
+
+  .hero .sub {
+    font-size: 19px;
+    color: var(--ink-soft);
+    max-width: 52ch;
+    margin: 20px 0 40px;
+  }
+
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 48px;
+    max-width: 760px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .benefits li {
+    padding: 14px 0;
+    border-top: 1px solid var(--line);
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+
+  .benefits b {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  /* --- SCREEN SECTIONS --- */
+  .screen {
+    display: grid;
+    grid-template-columns: 1.15fr 1fr;
+    gap: 64px;
+    align-items: center;
+    padding: 72px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .screen.reverse .media { order: 2; }
+  .screen.reverse .text { order: 1; }
+
+  .media img {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    background: var(--surface);
+  }
+
+  .eyebrow {
+    display: block;
+    font-size: 13px;
+    color: var(--accent-ink);
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .text h2 {
+    font-size: 28px;
+    margin-bottom: 14px;
+  }
+
+  .text > p.lead {
+    font-size: 16.5px;
+    color: var(--ink-soft);
+    max-width: 46ch;
+    margin: 0 0 28px;
+  }
+
+  .feature-def {
+    margin: 0;
+    padding: 22px 0 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .feature-def:first-of-type {
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .feature-def dt {
+    font-weight: 600;
+    font-size: 15.5px;
+    margin-bottom: 6px;
+  }
+
+  .feature-def dd {
+    margin: 0;
+    font-size: 15px;
+    color: var(--ink-soft);
+    max-width: 46ch;
+  }
+
+  /* --- SAMAI SECTION --- */
+  .samai {
+    padding: 72px 0 96px;
+  }
+
+  .samai .eyebrow { color: var(--accent-ink); }
+
+  .samai .feature-def {
+    border-top-color: var(--line);
+  }
+
+  .samai .feature-def dt {
+    color: var(--accent-ink);
+  }
+
+  @media (max-width: 860px) {
+    .wrap { padding: 0 20px; }
+    .hero { padding: 56px 0 40px; }
+    .hero h1 { font-size: 34px; }
+    .benefits { grid-template-columns: 1fr; }
+    .screen, .screen.reverse {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      padding: 48px 0;
+    }
+    .screen .media, .screen.reverse .media,
+    .screen .text, .screen.reverse .text { order: initial; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>APK Builder Studio</h1>
+    <p class="sub">The fully GUI-driven platform for turning Kivy and KivyMD apps into APKs and AABs — from setup to AI-assisted error analysis.</p>
+    <p class="sub" style="margin-top: -24px;">The full documentation with a step-by-step tutorial lives right on Screen 1 in the app — everything is explained there.</p>
+
+    <ul class="benefits">
+      <li><b>Zero terminal</b> — complete WSL &amp; Ubuntu setup with one click.</li>
+      <li><b>Seamless transfer</b> — Windows projects automatically mirrored into the Linux environment.</li>
+      <li><b>Smart builds</b> — CameraX &amp; ML features via checkbox, spec templates included.</li>
+      <li><b>SamAI assistant</b> — build crashes and device errors analyzed and fixed for you.</li>
+    </ul>
+  </section>
+
+  <!-- SCREEN 1 -->
+  <section class="screen">
+    <div class="media">
+      <img src="screen1.png" alt="Screenshot of Screen 1 - Automatic setup">
+    </div>
+    <div class="text">
+      <span class="eyebrow">Screen 1</span>
+      <h2>The fully automated setup</h2>
+      <p class="lead">The complete Linux and Buildozer setup — with no console commands at all.</p>
+
+      <dl>
+        <div class="feature-def">
+          <dt>Activate WSL &amp; Ubuntu</dt>
+          <dd>One click on "Activate WSL", a restart, and Ubuntu is downloaded and set up automatically.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>Set up Buildozer &amp; SDK</dt>
+          <dd>Pick the right config from the dropdown. Need a Play Store-ready AAB? "md2.16 kb" creates a dedicated Python 3.14 venv with 16 KB alignment. The Android SDK/NDK are also installed via a button, exactly to server spec.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>Broom &amp; Bomb — repair</dt>
+          <dd>Broom clears global caches when a build gets stuck. The Bomb button resets the entire WSL install for a clean restart when needed.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SCREEN 2 -->
+  <section class="screen reverse">
+    <div class="media">
+      <img src="screen2.png" alt="Screenshot of Screen 2 - File explorer">
+    </div>
+    <div class="text">
+      <span class="eyebrow">Screen 2</span>
+      <h2>The project manager</h2>
+      <p class="lead">Manage projects without manually copying files back and forth between Windows and Linux.</p>
+
+      <dl>
+        <div class="feature-def">
+          <dt>Import a new project</dt>
+          <dd>Pick a folder in Windows Explorer — it's copied to Linux automatically and set as the active project.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>Choose a WSL project</dt>
+          <dd>Select and activate an existing Linux project directly.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>WSL explorer</dt>
+          <dd>Opens the Linux folder of the active project, or the main folder to manage older projects.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SCREEN 3 -->
+  <section class="screen">
+    <div class="media">
+      <img src="screen3.png" alt="Screenshot of Screen 3 - Buildozer.spec & modules">
+    </div>
+    <div class="text">
+      <span class="eyebrow">Screen 3</span>
+      <h2>Build, specs &amp; native modules</h2>
+      <p class="lead">Add native Android features and manage your configurations in one place.</p>
+
+      <dl>
+        <div class="feature-def">
+          <dt>Create a spec &amp; inject modules</dt>
+          <dd>Start from the general spec in the docs, then check off native features like CameraX, Text Recognition, Face Detection, Barcode Scanner, Text-to-Speech &amp; Speech-to-Text — Java helpers and spec entries are added automatically.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>Tutorial &amp; SamAI safety net</dt>
+          <dd>The Screen 1 docs include a complete camera-app tutorial (take a photo, extract text, read it aloud). Since every project has its own dependencies, the general spec can still throw errors at first — SamAI fixes it in the next step.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>Smart templates</dt>
+          <dd>Save finished spec files under your own name and reuse them for new projects from the dropdown.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>Targeted clean &amp; build</dt>
+          <dd>"Clean P4A + Buildozer" clears only the active project's caches, then "Build APK/AAB" starts compiling.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SCREEN 4 -->
+  <section class="screen reverse">
+    <div class="media">
+      <img src="screen4.png" alt="Screenshot of Screen 4 - Deployment">
+    </div>
+    <div class="text">
+      <span class="eyebrow">Screen 4</span>
+      <h2>Deployment &amp; debugging</h2>
+      <p class="lead">Install apps straight to your phone, capture errors, and start the analysis.</p>
+
+      <dl>
+        <div class="feature-def">
+          <dt>Wi-Fi &amp; USB install</dt>
+          <dd>Install finished APKs, or unpack and install AABs Play Store-style for the connected device — at the press of a button.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>Live logcat</dt>
+          <dd>"Debug" records the logcat and streams the error live in the terminal the moment the app crashes.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>Start the AI analysis</dt>
+          <dd>"IDE / SamAI analyses" opens the integrated IDE in your browser with your personal assistant SamAI for troubleshooting.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SAMAI -->
+  <section class="screen samai">
+    <div class="media">
+      <img src="samai.png" alt="Screenshot of the integrated SamAI IDE">
+    </div>
+    <div class="text">
+      <span class="eyebrow">The integrated IDE</span>
+      <h2>SamAI</h2>
+      <p class="lead">The two-click fix for build and device errors — with the active project's file tree built in.</p>
+
+      <dl>
+        <div class="feature-def">
+          <dt>Problems with the build?</dt>
+          <dd>"Problems with the build (APK/AAB)" analyzes the log from Screen 3 and delivers the exactly corrected buildozer.spec — even while your module spec still needs adjustments.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>App crashing on the device?</dt>
+          <dd>"App won't start [...]" evaluates the logcat. Enable the affected .py or .kv files in the file tree, and SamAI spots the logic error and delivers the fix.</dd>
+        </div>
+        <div class="feature-def">
+          <dt>One-click "Apply"</dt>
+          <dd>No manual copy-pasting needed — one click writes the corrected code straight into your project files. Then head back to Screen 3 and restart the build.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
