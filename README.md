@@ -26,7 +26,7 @@ When something breaks, the built-in assistant SamAI reads your build log or logc
 
 ### About the SamAI key
 
-SamAI currently requires a free tester key. This isn't about limiting access — it's simply so I can keep support requests manageable while it's still in testing. Grab your key here: [get_beta_key link].
+SamAI currently requires a free tester key. This isn't about limiting access — it's simply so I can keep support requests manageable while it's still in testing.Grab your key here: [Get your tester key](https://PedroSamuel.pythonanywhere.com/get_beta_key).
 
 To activate: click the SamAI logo in the top right, paste the key with Ctrl+V, and click "OK".
 
