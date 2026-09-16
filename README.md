@@ -57,4 +57,3 @@ The demo project used is [Weather.IO](https://github.com/Novfensec/Weather.IO) b
 
 https://github.com/user-attachments/assets/ba8310bf-f1a0-4de5-ac1b-b7ab52989cb2
 
-https://github.com/user-attachments/assets/ba8310bf-f1a0-4de5-ac1b-b7ab52989cb2
