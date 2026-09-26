@@ -29,9 +29,7 @@ When something breaks, the built-in assistant SamAI reads your build log or logc
 About the SamAI key
 **Status: SamAI is temporarily offline while I migrate the backend to a new server. This may take a few days — sorry for the inconvenience.**
 
-SamAI currently requires a free tester key.(https://PedroSamuel.pythonanywhere.com/get_beta_key).
-
-To activate: click the SamAI logo in the top right, paste the key with Ctrl+V, and click "OK".
+SamAI currently requires a free tester key. To get one: open the IDE and trigger a SamAI request (e.g. via one of the analysis buttons) — a popup will offer you the option to request a key, which opens your browser. Copy the key you receive there, go back to APK Builder Studio's start screen, click the SamAI logo in the top right, and paste the key to activate it..
 
 ## In my own words
 
