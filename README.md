@@ -1,4 +1,10 @@
 
+
+https://github.com/user-attachments/assets/b7c6b6ef-f7d9-41cf-94ae-b41291b9f4dd
+
+
+
+
 # APK Builder Studio
 
 The fully GUI-driven platform for turning Kivy and KivyMD apps into APKs and AABs — no terminal required.
