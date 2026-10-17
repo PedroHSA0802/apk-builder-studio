@@ -1,10 +1,4 @@
 
-
-https://github.com/user-attachments/assets/b7c6b6ef-f7d9-41cf-94ae-b41291b9f4dd
-
-
-
-
 # APK Builder Studio
 
 The fully GUI-driven platform for turning Kivy and KivyMD apps into APKs and AABs — no terminal required.
@@ -64,4 +58,4 @@ https://github.com/user-attachments/assets/ba8310bf-f1a0-4de5-ac1b-b7ab52989cb2
 **2. TAU — the complete workflow (about 40 minutes)**
 SamAI has been improved since the first video. This second video shows the whole workflow on one of my own apps, TAU, a voice assistant with AI that creates customer entries (name, email, phone and a note) by speaking: from the build log and the phone's logcat to the fix SamAI suggests and applying it.
 
-https://github.com/user-attachments/assets/8f3600bc-4bf8-410b-8bc1-3e212c4b3cc4
+https://github.com/user-attachments/assets/b7c6b6ef-f7d9-41cf-94ae-b41291b9f4dd
