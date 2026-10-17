@@ -1,9 +1,4 @@
 
-
-https://github.com/user-attachments/assets/8f3600bc-4bf8-410b-8bc1-3e212c4b3cc4
-
-
-
 # APK Builder Studio
 
 The fully GUI-driven platform for turning Kivy and KivyMD apps into APKs and AABs — no terminal required.
@@ -32,10 +27,7 @@ When something breaks, the built-in assistant SamAI reads your build log or logc
 
 ### About the SamAI key
 
-About the SamAI key
-**Status: SamAI is temporarily offline while I migrate the backend to a new server. This may take a few days — sorry for the inconvenience.**
-
-SamAI currently requires a free tester key. To get one: open the IDE and trigger a SamAI request (e.g. via one of the analysis buttons) — a popup will offer you the option to request a key, which opens your browser. Copy the key you receive there, go back to APK Builder Studio's start screen, click the SamAI logo in the top right, and paste the key to activate it..
+SamAI currently requires a free tester key. To get one: open the IDE and trigger a SamAI request (e.g. via one of the analysis buttons) — a popup will offer you the option to request a key, which opens your browser. Copy the key you receive there, go back to APK Builder Studio's start screen, click the SamAI logo in the top right, and paste the key to activate it.
 
 ## In my own words
 
@@ -56,11 +48,14 @@ Leave a comment<br>
 <a href="https://pedrohsa0802.github.io/apk-builder-studio/"><b>Read more about APK Builder Studio</b></a>
 </p>
 
-## Demo video
+## Demo videos
 
-Here's a video showing a complete debugging session of the Weather.IO app (originally from GitHub) using the SamAI IDE — so you can see live what all the IDE has to offer.
-
-The demo project used is [Weather.IO](https://github.com/Novfensec/Weather.IO) by Novfensec.
+**1. Weather.IO**
+Here's a video showing a complete debugging session of the Weather.IO app (originally from GitHub) using the SamAI IDE — so you can see live what all the IDE has to offer. The demo project used is [Weather.IO](https://github.com/Novfensec/Weather.IO) by Novfensec.
 
 https://github.com/user-attachments/assets/ba8310bf-f1a0-4de5-ac1b-b7ab52989cb2
 
+**2. TAU — the complete workflow (about 40 minutes)**
+SamAI has been improved since the first video. This second video shows the whole workflow on one of my own apps, TAU, a voice assistant with AI that creates customer entries (name, email, phone and a note) by speaking: from the build log and the phone's logcat to the fix SamAI suggests and applying it.
+
+https://github.com/user-attachments/assets/8f3600bc-4bf8-410b-8bc1-3e212c4b3cc4
